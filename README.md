@@ -24,3 +24,5 @@ If there is also an index file, e.g. `index.js`, and it should be used as entry 
 ## Copyright
 
 Copyright (c) 2016 Sebastian Deutsch / [9elements](http://9elements.com/)
+
+This plugin is heavily inspired by the (Directory Named Plugin)[https://github.com/shaketbaby/directory-named-webpack-plugin] which is unfortunately broken for Webpack 2.
