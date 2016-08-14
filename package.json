@@ -1,0 +1,28 @@
+{
+  "name": "component-directory-webpack-plugin",
+  "version": "0.0.1",
+  "description": "A Webpack plugin that treats a file with the name of directory as the index file - it's great for importing React components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastiandeutsch/component-directory-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "plugin",
+    "directory",
+    "named",
+    "component",
+    "import"
+  ],
+  "author": "Sebastian Deutsch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastiandeutsch/component-directory-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/sebastiandeutsch/component-directory-webpack-plugin#readme"
+}
