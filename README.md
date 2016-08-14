@@ -1,0 +1,1 @@
+# component-directory-webpack-plugin
