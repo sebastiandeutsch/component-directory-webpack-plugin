@@ -1,10 +1,13 @@
 {
   "name": "component-directory-webpack-plugin",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A Webpack plugin that treats a file with the name of directory as the index file - it's great for importing React components.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "push": "git push --tag origin master:master",
+    "bump": "bump --prompt --commit --tag --push --all",
+    "lint": "eslint lib test",
+    "test": "mocha --full-trace --check-leaks"
   },
   "repository": {
     "type": "git",
@@ -24,5 +27,15 @@
   "bugs": {
     "url": "https://github.com/sebastiandeutsch/component-directory-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/sebastiandeutsch/component-directory-webpack-plugin#readme"
+  "homepage": "https://github.com/sebastiandeutsch/component-directory-webpack-plugin#readme",
+  "dependencies": {
+    "enhanced-resolve": "^2.2.2",
+    "object-assign": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.1.0",
+    "version-bump-prompt": "^1.5.2",
+    "mocha": "^2.3.4",
+    "should": "^8.0.2"
+  }
 }
