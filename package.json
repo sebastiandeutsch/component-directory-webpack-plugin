@@ -7,7 +7,9 @@
     "push": "git push --tag origin master:master",
     "bump": "bump --prompt --commit --tag --push --all",
     "lint": "eslint lib test",
-    "test": "mocha --full-trace --check-leaks"
+    "test": "mocha --full-trace --check-leaks",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha",
+    "travis": "npm run cover -- --report lcovonly"
   },
   "repository": {
     "type": "git",
@@ -34,9 +36,10 @@
   },
   "devDependencies": {
     "eslint": "^1.1.0",
-    "version-bump-prompt": "^1.5.2",
+    "istanbul": "^0.4.4",
     "mocha": "^2.3.4",
-    "should": "^8.0.2"
+    "should": "^8.0.2",
+    "version-bump-prompt": "^1.5.2"
   },
   "peerDependencies": {
     "webpack": "^2"
