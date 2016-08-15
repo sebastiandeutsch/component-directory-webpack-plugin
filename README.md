@@ -37,6 +37,13 @@ If there is also an index file, e.g. `index.js`, and it should be used as entry 
   },
 
 ```
+## Tests
+
+``` javascript
+npm test
+```
+
+[![Build Status](https://secure.travis-ci.org/sebastiandeutsch/component-directory-webpack-plugin.png?branch=master)](http://travis-ci.org/sebastiandeutsch/component-directory-webpack-plugin)
 
 ## Caveats
 
