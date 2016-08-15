@@ -1,9 +1,16 @@
 ## What
+
 Normally, Webpack looks for **index** file when the path passed to `require` points to a directory; which means there may have a lot of **index** files. It's also hard for debugging since the DevTools will report an error in **index**.
 
 This plugin makes it possible to use the name of the directory as the name of the entry file, makes it easier to find.
 
 ## Usage
+
+Install the plugin:
+
+```
+npm install component-directory-webpack-plugin
+```
 
 Add the following to Webpack's config file:
 
@@ -11,8 +18,8 @@ Add the following to Webpack's config file:
   var ComponentDirectoryPlugin = require("component-directory-webpack-plugin");
 
   resolve: {
-    extensions: ['', '.js', '.jsx'],
     plugins: [new ComponentDirectoryPlugin()]
+    extensions: ['', '.js', '.jsx'],
   },
 
 ```
@@ -25,11 +32,15 @@ If there is also an index file, e.g. `index.js`, and it should be used as entry 
   var ComponentDirectoryPlugin = require("component-directory-webpack-plugin");
 
   resolve: {
-    extensions: ['', '.js', '.jsx'],
     plugins: [new ComponentDirectoryPlugin(true)]
+    extensions: ['', '.js', '.jsx'],
   },
 
 ```
+
+## Caveats
+
+This plugin has been developed to work with Webpack 2 for similar plugins that work with Webpack 1 use [Directory Named Plugin](https://github.com/shaketbaby/directory-named-webpack-plugin) or [Directory name as main Plugin](https://github.com/spalger/webpack-directory-name-as-main).
 
 ## Copyright
 
