@@ -1,6 +1,6 @@
 {
   "name": "component-directory-webpack-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Webpack plugin that treats a file with the name of directory as the index file - it's great for importing React components.",
   "main": "index.js",
   "scripts": {
