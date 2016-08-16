@@ -51,6 +51,6 @@ This plugin has been developed to work with Webpack 2 for similar plugins that w
 
 ## Copyright
 
-Copyright (c) 2016 Sebastian Deutsch / [9elements](http://9elements.com/)
+Copyright (c) 2016 [Sebastian Deutsch](https://twitter.com/sippndipp) / [9elements](http://9elements.com/)
 
 This plugin is heavily inspired by the [Directory Named Plugin](https://github.com/shaketbaby/directory-named-webpack-plugin) which is unfortunately broken for Webpack 2.
